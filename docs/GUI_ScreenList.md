@@ -1,16 +1,25 @@
+This document provides an outline of the required elements of the GUI.
+
+> [!IMPORTANT]
+> The styling in this document is not yet final.
+> This is currently intended for getting an idea of what we need to make; after we have that we can make it look prettier.
+
 # Constant Elements
 
-Parts of the screen which are visible all the time.
+Parts of the GUI which are visible all the time.
 
 ## Top Bar
 
- * Displays robot name, screen name and robot status.  Coloured based on robot status.
+- Shows robot name, screen name and robot status.
+- Coloured based on robot status, eg red for error, green for normal run, blue for idle, orange for teach.
+
+![](./GUI-topbar.svg)
 
 ## Menu Bar
 
- * Positioned along the bottom of the screen to correspond with optional physical buttons.
- * Always contains a "Menu" item.
- * Other entries are configurable based on what is displayed on the main screen.
+- Positioned along the bottom of the screen to correspond with optional physical buttons.
+- Always contains a "Menu" item.
+- Other entries are configurable based on what is displayed on the main screen.
 
 ![](./GUI-menubar.svg)
 
@@ -22,8 +31,10 @@ Screens that take up the entire display.
 
 Used for displaying data and interacting with the machine during normal operation
 
- * Displays configurable grid of widgets
- * Configurable menu that can be used to change to other modes
+- Displays configurable grid of widgets which can display information and accept user input.
+- The menu options are also configurable and would be used to change to other modes or for accessing settings etc via the buttons.
+
+![](./GUI-main.svg)
 
 ## Raw Config Screen
 
@@ -31,7 +42,7 @@ Provides a tree of all parameters on the controller with the ability to view and
 
 ## File Manager
 
-Provides access to the device filesystem.  Pretty much just a typical file browser.
+Provides access to the device filesystem. Pretty much just a typical file browser.
 
 ## Text Editor
 
@@ -45,13 +56,15 @@ Basically the same as the text editor, but does visual programming.
 
 Allow customisation of main screen layouts and creating script UIs.
 
+![](./GUI-config.svg)
+
 # Overlay Screens
 
 Screens that float above the current primary screen.
 
 ## Help screen
 
-An overlay explaining the current screen.  May also be accessible from other overlays if that's useful.
+An overlay explaining the current screen. May also be accessible from other overlays if that's useful.
 
 ## Script UI
 
@@ -61,29 +74,29 @@ An overlay launched by the currently-executing script for prompting the user etc
 
 ## Static
 
- * Static text
- * Static image
+- Static text
+- Static image
 
 ## Display
 
- * System log
- * Current GCode/script (and surrounding lines)
- * Parameter (various datatypes - coordinates, float/integer etc)
- * Gauge
- * Bar
- * 3D viewport
- * Live graph/oscilloscope
+- System log
+- Current GCode/script (and surrounding lines)
+- Parameter (various datatypes - coordinates, float/integer etc)
+- Gauge
+- Bar
+- 3D viewport
+- Live graph/oscilloscope
 
 ## Interaction
 
- * Editor (same as the full-screen visual/text editors above but embedded)
+- Editor (same as the full-screen visual/text editors above but embedded)
 
 ## Controls
 
- * Switch (eg for controlling coolant on/off)
- * Dial (eg for feed rate override
+- Switch (eg for controlling coolant on/off)
+- Dial (eg for feed rate override
 
 ## Script UI
 
- * Text/float/combo/etc input
- * Button
+- Text/float/combo/etc input
+- Button
