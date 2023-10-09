@@ -1,8 +1,7 @@
 This document provides an outline of the required elements of the GUI.
 
-> [!IMPORTANT]
-> The styling in this document is not yet final.
-> This is currently intended for getting an idea of what we need to make; after we have that we can make it look prettier.
+The GUI defined here is very generic; more-specific UIs would be shipped as pre-configured layouts which can then be tweaked by the end user as needed.
+Similarly, the script UI functionality would be used to implement setup wizards for a nice onboarding process.
 
 # Constant Elements
 
