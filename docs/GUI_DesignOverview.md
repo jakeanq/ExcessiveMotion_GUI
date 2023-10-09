@@ -40,7 +40,7 @@ Used for displaying data and interacting with the machine during normal operatio
 
 Provides a tree of all parameters on the controller with the ability to view and edit them.
 
- - Should also be accessible in a "picker" mode which can be used to select a parameter when configuring widgets in the UI editor or writing scripts in the script editors.
+- Should also be accessible in a "picker" mode which can be used to select a parameter when configuring widgets in the UI editor or writing scripts in the script editors.
 
 ![](./GUI-config-tree.svg)
 
@@ -48,10 +48,10 @@ Provides a tree of all parameters on the controller with the ability to view and
 
 Provides access to the device filesystem. Pretty much just a typical file browser.
 
- - Allow moving files around, renaming etc.
- - Open files in the appropriate editor.
- - Upload files (scripts, config files, code updates etc)
- - Download files (logs, scripts etc)
+- Allow moving files around, renaming etc.
+- Open files in the appropriate editor.
+- Upload files (scripts, config files, code updates etc)
+- Download files (logs, scripts etc)
 
 ## Text Editor
 
