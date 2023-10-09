@@ -40,9 +40,18 @@ Used for displaying data and interacting with the machine during normal operatio
 
 Provides a tree of all parameters on the controller with the ability to view and edit them.
 
+ - Should also be accessible in a "picker" mode which can be used to select a parameter when configuring widgets in the UI editor or writing scripts in the script editors.
+
+![](./GUI-config-tree.svg)
+
 ## File Manager
 
 Provides access to the device filesystem. Pretty much just a typical file browser.
+
+ - Allow moving files around, renaming etc.
+ - Open files in the appropriate editor.
+ - Upload files (scripts, config files, code updates etc)
+ - Download files (logs, scripts etc)
 
 ## Text Editor
 
@@ -58,7 +67,7 @@ Basically the same as the text editor, but does visual programming.
 
 Allow customisation of main screen layouts and creating script UIs.
 
-![](./GUI-config.svg)
+![](./GUI-ui-editor.svg)
 
 # Overlay Screens
 
