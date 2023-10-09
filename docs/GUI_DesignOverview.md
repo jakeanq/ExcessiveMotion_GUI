@@ -46,7 +46,9 @@ Provides access to the device filesystem. Pretty much just a typical file browse
 
 ## Text Editor
 
-Allow editing of GCode etc.
+Allow editing of GCode and the scripting language.
+
+Also would support checking the code for issues and showing the current line being executed.
 
 ## Visual Script Editor
 
@@ -98,5 +100,16 @@ An overlay launched by the currently-executing script for prompting the user etc
 
 ## Script UI
 
+Elements only available to UIs spawned by scripts (because they need information from the script to make any sense)
+
 - Text/float/combo/etc input
 - Button
+- Progress bar/spinner
+
+# Startup UI
+
+A splash page that displays while the UI is loading.
+
+# Pendant UI
+
+We should probably have a bit of GUI built into the CEF app in order to handle network configuration and do some basic fault diagnosis in case the main UI isn't available.
