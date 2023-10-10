@@ -76,9 +76,15 @@ Screens that float above the current primary screen.
 
 An overlay explaining the current screen. May also be accessible from other overlays if that's useful.
 
+![](./GUI-help-overlay.svg)
+
 ## Script UI
 
 An overlay launched by the currently-executing script for prompting the user etc.
+
+![](./GUI-script-overlay.svg)
+
+![](./GUI-script-overlay2.svg)
 
 # Widgets
 
